@@ -20,7 +20,7 @@ X, y = make_blobs(  # type:ignore
 
 # 2. Turn data into tensors
 X = torch.from_numpy(X).type(torch.float)
-y = torch.from_numpy(y).type(torch.float)
+y = torch.from_numpy(y).type(torch.long)
 
 
 # 3. Split data into train and test sets
